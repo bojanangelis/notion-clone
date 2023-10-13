@@ -8,16 +8,28 @@ const Heroes = () => {
         <div className="relative w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px]">
           <Image
             fill
-            className="object-contain"
+            className="object-contain dark:hidden"
             src="/documents.png"
+            alt="documents"
+          />
+          <Image
+            fill
+            className="object-contain hidden dark:block"
+            src="/documents-dark.png"
             alt="documents"
           />
         </div>
         <div className="relative w-[400px] h-[400px] hidden md:block">
           <Image
             fill
-            className="object-contain"
+            className="object-contain dark:hidden"
             src="/reading.png"
+            alt="reading"
+          />
+          <Image
+            fill
+            className="object-contain hidden dark:block"
+            src="/reading-dark.png"
             alt="reading"
           />
         </div>
